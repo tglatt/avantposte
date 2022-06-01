@@ -7,6 +7,6 @@ fi
 
 git add *
 git commit -m "$1"
-git push origin -u origin HEAD
+git push -u origin HEAD
 
 ssh root@146.190.19.139 'bash -s' < update-prod.sh
