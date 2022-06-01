@@ -44,6 +44,11 @@
     <!--[if lt IE 9]>
       <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
     <![endif]-->
+    <style>
+      .card-wrapper {
+        height: 100%;
+      }
+    </style>
   </head>
 
   <body>
@@ -142,45 +147,79 @@
         </div>
       </section>
       <section
-        class="row flex-lg-row-reverse align-items-center gx-5 py-5 bg-success text-dark bg-opacity-10"
+        class="row align-items-center gx-5 py-5 bg-success text-dark bg-opacity-10"
       >
-        <div class="col-lg-12">
-          <h2 id="activites">Activités</h2>
-          <p>4 activités se croiseront à l’ouverture du tiers-lieu :</p>
-          <div class="col-lg-6">
-            <img
-              src="images/coworking.jpg"
-              class="d-block mx-lg-auto img-fluid"
-              alt="Un avant-poste de la transition"
-              loading="lazy"
-              width="810"
-              height="540"
-            />
+        <h2 id="activites">Activités</h2>
+        <p>Des activités se croiseront à l’ouverture du tiers-lieu :</p>
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="card card-wrapper">
+              <img
+                class="card-img-top"
+                src="images/coworking.jpg"
+                alt="Un avant-poste de la transition"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Coworking et bureaux</h5>
+                <p class="card-text">
+                  40 places de coworking dédiées en priorité aux projets à
+                  impact, formations aux métiers de la transition, incubateur de
+                  projets, dynamiques associatives et coopératives.
+                </p>
+              </div>
+            </div>
           </div>
 
-          <ul>
-            <li>
-              Des espaces de travail 40 places de coworking dédiées en priorité
-              aux projets à impact, formations aux métiers de la transition,
-              incubateur de projets, dynamiques associatives et coopératives, …
-            </li>
-            <li>
-              Des logements 4 appartements rénovés et sortis de la logique
-              spéculative, des espaces de vie mutualisés, des chambres d’accueil
-              pour les personnes en situation d’urgence…
-            </li>
-            <li>
-              Un restaurant Un café-restaurant convivial qui mise sur le bio et
-              le circuit-court et participe à la vitalité du centre-ville. Si
-              vous voulez mettre un chiffre, plutôt que 1, mettre le nombre de
-              places peu t-être?
-            </li>
-            <li>
-              L’accueil d’événements Mise à disposition d’espaces pour les
-              associ tions : ateliers de sensibilisation comme la Fresque du
-              Climat, événements, conférences, …
-            </li>
-          </ul>
+          <div class="col-lg-3">
+            <div class="card card-wrapper">
+              <img
+                class="card-img-top"
+                src="images/logement.jpg"
+                alt="Un avant-poste de la transition"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Logements</h5>
+                <p class="card-text">
+                  4 appartements rénovés et sortis de la logique spéculative,
+                  des espaces de vie mutualisés.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card card-wrapper">
+              <img
+                class="card-img-top"
+                src="images/espacepartage.jpg"
+                alt="Un avant-poste de la transition"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Restauration</h5>
+                <p class="card-text">
+                  Un café-restaurant convivial qui mise sur le bio et le
+                  circuit-court et participe à la vitalité du centre-ville
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card card-wrapper">
+              <img
+                class="card-img-top"
+                src="images/espacepartage.jpg"
+                alt="Un avant-poste de la transition"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Accueil d'évènement</h5>
+                <p class="card-text">
+                  L’accueil d’événements avec la mise à disposition d’espaces
+                  pour les associations.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12">
           <p>
             Plein d’autres potentiels sont à explorer : accueil d’enfants,
             ateliers de bricolage, utilisation des caves, etc. Tout est ouvert :
@@ -191,4 +230,6 @@
       </section>
     </main>
   </body>
+
+  <script></script>
 </html>
