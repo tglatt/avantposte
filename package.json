@@ -4,7 +4,9 @@
   "author": "Thomas Glatt",
   "description": "website",
   "scripts": {
-    "start": "docker-compose up --build --force -d"
+    "start": "docker-compose up --build --force -d",
+    "stop": "docker-compose stop",
+    "deploy": "./deploy.sh"
   },
   "license": "ISC"
 }
