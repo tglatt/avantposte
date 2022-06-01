@@ -1,0 +1,10 @@
+{
+  "name": "avant-poste",
+  "version": "1.0.0",
+  "author": "Thomas Glatt",
+  "description": "website",
+  "scripts": {
+    "dev": "docker-compose up --build --force"
+  },
+  "license": "ISC"
+}
