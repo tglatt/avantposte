@@ -4,7 +4,7 @@
   "author": "Thomas Glatt",
   "description": "website",
   "scripts": {
-    "dev": "docker-compose up --build --force"
+    "start": "docker-compose up --build --force"
   },
   "license": "ISC"
 }
