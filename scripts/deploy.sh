@@ -5,8 +5,10 @@ if [ $# -eq 0 ]; then
     exit 1
 fi
 
+cd ..
+
 git add *
 git commit -m "$1"
 git push -u origin HEAD
 
-ssh root@146.190.19.139 'bash -s' < update-prod.sh
+ssh root@146.190.19.139 'bash -s' < ./scripts/update-prod.sh
