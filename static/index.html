@@ -45,8 +45,33 @@
       <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
     <![endif]-->
     <style>
+      @media (max-width: 576px) {
+        section {
+          padding: 2rem;
+        }
+      }
+      @media (min-width: 576px) {
+        section {
+          padding: 4rem;
+        }
+      }
+
+      @media (min-width: 992px) {
+        section {
+          padding: 8rem;
+        }
+      }
+
+      .card-container {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
       .card-wrapper {
-        height: 100%;
+        margin: 4px;
+        width: 300px;
+        flex: 0 0 auto;
       }
     </style>
   </head>
@@ -151,81 +176,80 @@
       >
         <h2 id="activites">Activités</h2>
         <p>Des activités se croiseront à l’ouverture du tiers-lieu :</p>
-        <div class="row">
-          <div class="col-lg-3">
-            <div class="card card-wrapper">
-              <img
-                class="card-img-top"
-                src="images/coworking.jpg"
-                alt="Un avant-poste de la transition"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Coworking et bureaux</h5>
-                <p class="card-text">
-                  40 places de coworking dédiées en priorité aux projets à
-                  impact, formations aux métiers de la transition, incubateur de
-                  projets, dynamiques associatives et coopératives.
-                </p>
-              </div>
+        <div class="card-container">
+          <div class="card card-wrapper">
+            <img
+              src="images/coworking.jpg"
+              alt="Un avant-poste de la transition"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Coworking et bureaux</h5>
+              <p class="card-text">
+                40 places de coworking dédiées en priorité aux projets à impact,
+                formations aux métiers de la transition, incubateur de projets,
+                dynamiques associatives et coopératives.
+              </p>
             </div>
           </div>
 
-          <div class="col-lg-3">
-            <div class="card card-wrapper">
-              <img
-                class="card-img-top"
-                src="images/logement.jpg"
-                alt="Un avant-poste de la transition"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Logements</h5>
-                <p class="card-text">
-                  4 appartements rénovés et sortis de la logique spéculative,
-                  des espaces de vie mutualisés.
-                </p>
-              </div>
+          <div class="card card-wrapper">
+            <img
+              class="card-img-top"
+              src="images/logement.jpg"
+              alt="Un avant-poste de la transition"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Logements</h5>
+              <p class="card-text">
+                4 appartements rénovés et sortis de la logique spéculative, des
+                espaces de vie mutualisés.
+              </p>
             </div>
           </div>
-          <div class="col-lg-3">
-            <div class="card card-wrapper">
-              <img
-                class="card-img-top"
-                src="images/espacepartage.jpg"
-                alt="Un avant-poste de la transition"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Restauration</h5>
-                <p class="card-text">
-                  Un café-restaurant convivial qui mise sur le bio et le
-                  circuit-court et participe à la vitalité du centre-ville
-                </p>
-              </div>
+          <div class="card card-wrapper">
+            <img
+              class="card-img-top"
+              src="images/espacepartage.jpg"
+              alt="Un avant-poste de la transition"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Restauration</h5>
+              <p class="card-text">
+                Un café-restaurant convivial qui mise sur le bio et le
+                circuit-court et participe à la vitalité du centre-ville
+              </p>
             </div>
           </div>
-          <div class="col-lg-3">
-            <div class="card card-wrapper">
-              <img
-                class="card-img-top"
-                src="images/espacepartage.jpg"
-                alt="Un avant-poste de la transition"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Accueil d'évènement</h5>
-                <p class="card-text">
-                  L’accueil d’événements avec la mise à disposition d’espaces
-                  pour les associations.
-                </p>
-              </div>
+          <div class="card card-wrapper">
+            <img
+              class="card-img-top"
+              src="images/espacepartage.jpg"
+              alt="Un avant-poste de la transition"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Accueil d'évènement</h5>
+              <p class="card-text">
+                L’accueil d’événements avec la mise à disposition d’espaces pour
+                les associations.
+              </p>
             </div>
           </div>
-        </div>
-        <div class="col-lg-12">
-          <p>
-            Plein d’autres potentiels sont à explorer : accueil d’enfants,
-            ateliers de bricolage, utilisation des caves, etc. Tout est ouvert :
-            ce sont l’ensemble des sociétaires de la coopérative qui écriront le
-            futur de l’Avant-Poste !
-          </p>
+          <div class="card card-wrapper">
+            <img
+              class="card-img-top"
+              src="images/activite-autre.jpg"
+              alt="Un avant-poste de la transition"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Et...</h5>
+              <p class="card-text">
+                Plein d’autres potentiels sont à explorer : accueil d’enfants,
+                ateliers de bricolage, utilisation des caves, etc. Tout est
+                ouvert : ce sont l’ensemble des sociétaires de la coopérative
+                qui écriront le futur de l’Avant-Poste !
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </main>
