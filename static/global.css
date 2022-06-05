@@ -3,43 +3,45 @@
   --green: rgb(0, 158, 144);
   --green-dark: rgb(0, 102, 96);
   --corail: rgb(252, 232, 217);
+  --orange: rgb(228, 121, 87);
+  --orange-light: rgb(228, 121, 87);
 }
 
 @media (min-width: 576px) {
   section {
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   section {
-    padding-right: 4rem;
-    padding-left: 4rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   section {
-    padding-right: 4rem;
-    padding-left: 4rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   section {
-    padding-right: 4rem;
-    padding-left: 4rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 }
 
 @media (min-width: 992px) {
   section {
-    padding-right: 6rem;
-    padding-left: 6rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
   }
 }
 
@@ -88,6 +90,28 @@ h2 {
   font-size: 24px;
   font-weight: bold;
   text-align: center;
+}
+
+/* ---------------------------------------------------------------------------*/
+/* SECTION email */
+/* ---------------------------------------------------------------------------*/
+
+.email {
+  background-color: var(--orange);
+  color: white;
+  font-weight: bolder;
+}
+
+.email .focus {
+  font-size: 20px;
+}
+
+.email a {
+  color: white;
+}
+
+.email a:hover {
+  filter: brightness(50%);
 }
 
 /* ---------------------------------------------------------------------------*/
