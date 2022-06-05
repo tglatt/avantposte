@@ -44,190 +44,113 @@
     <!--[if lt IE 9]>
       <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
     <![endif]-->
-    <style>
-      @media (max-width: 576px) {
-        section {
-          padding: 2rem;
-        }
-        header {
-          padding: 2rem;
-        }
-      }
-      @media (min-width: 576px) {
-        section {
-          padding: 4rem;
-        }
-        header {
-          padding: 4rem;
-        }
-      }
-
-      @media (min-width: 992px) {
-        section {
-          padding: 8rem;
-        }
-        header {
-          padding: 8rem;
-        }
-      }
-
-      .card-container {
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-        flex-wrap: wrap;
-      }
-      .card-wrapper {
-        margin: 4px;
-        width: 300px;
-        flex: 0 0 auto;
-      }
-
-      .nav-link {
-        color: rgb(0 158 144);
-      }
-
-      .section-green {
-        background-color: rgb(0 158 144);
-        color: white;
-      }
-
-      .card-text {
-        color: black;
-      }
-      .card-title {
-        color: black;
-      }
-    </style>
+    <link rel="stylesheet" href="global.css" />
   </head>
 
   <body>
     <main class="container-fluid">
-      <header id="header" class="row align-items-center gx-5 py-5">
-        <div class="col-lg-6">
-          <h1 class="display-5 fw-bold lh-1 mb-3">L'Avant-Poste</h1>
-          <p class="lead">l'Avant-Poste, tiers-lieu de la transition</p>
-        </div>
-      </header>
-      <!-- <div class="row g-5">
+      <div class="row">
+        <header id="header" class="header py-4">
+          <img
+            src="images/logo.png"
+            class="mx-auto d-block"
+            width="220px"
+            alt="L'Avant-poste, tiers lieu de la transition"
+          />
+        </header>
+      </div>
+      <div class="row menu">
         <nav class="navbar navbar-expand-lg">
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#lieu"
-                  >L'avant-poste</a
+                <a class="nav-link" aria-current="page" href="#activites"
+                  >Activités</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#mission"
-                  >Nos envies</a
+                <a class="nav-link" aria-current="page" href="#financement"
+                  >Le financement du projet</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#societaire"
+                  >Je deviens sociétaire</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#equipe"
+                  >L'équipe</a
                 >
               </li>
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#activites"
-                  >Les activités</a
+                  >Contact</a
                 >
               </li>
             </ul>
           </div>
         </nav>
-      </div> -->
-      <section class="row align-items-center gx-5 py-5 section-green">
+      </div>
+      <section class="row align-items-center py-5 section-projet">
         <div class="col-lg-6">
-          <h2 id="lieu">Un espace hybride, ouvert, évolutif et ancré !</h2>
           <p>
-            Le tiers-lieu L’Avant-Poste est au cœur du diois, à deux pas de la
-            Poste et la Cathédrale de Die, à trois pas de la rivière Drôme et
-            des associations, coopératives et artisans qui font vivre la ville.
-          </p>
-          <p>
-            A l’origine du projet ? Le référent de la fresque du climat dans la
-            Drôme qui cherchait un lieu pour proposer ses formations, et une
-            coopérative locale de production d’énergies renouvelables qui
-            recherche des bureaux pour son équipe grandissante. Ils tombent
-            amoureux de cette grande bâtisse à l’abandon en plein cœur de Die et
-            y voit un potentiel pour en faire un lieu de la Transition ! Leur
-            volonté rencontre celle de la mairie qui souhaite donner une
-            nouvelle vie à ce lieu central
-          </p>
-          <p>
-            Une quinzaine de personnes surmotivées vont les rejoindre pour créer
-            une coopérative d’intérêt collectif. L’Avant Poste est né ! Et il
-            vivra grâce à vous !
+            « Nous voulons rénover une bâtisse de 700m2 en plein centre de Die
+            pour en faire un Tiers Lieu de la transition. La mission de l’Avant
+            Poste sera d’accueillir, de valoriser et de favoriser les
+            initiatives liées à la Transition »
           </p>
         </div>
         <div class="col-lg-6">
           <img
-            src="images/dessin_lavantposte.png"
+            src="images/illustration.png"
             class="d-block mx-lg-auto img-fluid"
             alt="Un avant-poste de la transition"
-            loading="lazy"
           />
         </div>
       </section>
-      <section class="row flex-lg-row align-items-center gx-5 py-5">
-        <div class="col-lg-6"></div>
-        <div class="col-lg-6">
-          <h2 id="mission">Nos envies</h2>
-          <p>
-            Accueillir, valoriser et favoriser les initiatives liées à la
-            Transition
-          </p>
-          <p>
-            Nous voyons la transition comme une évolution vers un nouveau modèle
-            économique, culturel et social, qui renouvelle nos façons de
-            consommer, de produire, de travailler, de vivre ensemble pour
-            répondre aux grands enjeux environnementaux.
-          </p>
-          <p>
-            Situé aux sources de la Drôme, entre Vercors et Provence, le Diois
-            est un territoire pionnier de la Transition (Biovallée, Rencontres
-            de l’Ecologie, etc.). Nous souhaitons rassembler les énergies, les
-            faire connaître et favoriser de nouveaux projets !
-          </p>
-        </div>
-      </section>
-      <section class="row align-items-center gx-5 py-5 section-green">
+      <section class="row align-items-center py-4 section-activites">
         <h2 id="activites">Activités</h2>
-        <p>Des activités se croiseront à l’ouverture du tiers-lieu :</p>
         <div class="card-container">
           <div class="card card-wrapper">
             <img
-              src="images/coworking.jpg"
-              alt="Un avant-poste de la transition"
+              src="images/coworking.png"
+              class="card-img-top mx-auto d-block"
+              alt="espaces des travail"
             />
             <div class="card-body">
-              <h5 class="card-title">Coworking et bureaux</h5>
+              <h5 class="card-title">ESPACES DE TRAVAIL</h5>
               <p class="card-text">
                 40 places de coworking dédiées en priorité aux projets à impact,
-                formations aux métiers de la transition, incubateur de projets,
-                dynamiques associatives et coopératives.
+                formations aux métiers de la transition, incubateur de
+                projets...
               </p>
             </div>
           </div>
 
           <div class="card card-wrapper">
             <img
-              class="card-img-top"
-              src="images/logement.jpg"
-              alt="Un avant-poste de la transition"
+              class="card-img-top mx-auto d-block"
+              src="images/logements.png"
+              alt="logements"
             />
             <div class="card-body">
-              <h5 class="card-title">Logements</h5>
+              <h5 class="card-title">LOGEMENTS</h5>
               <p class="card-text">
                 4 appartements rénovés et sortis de la logique spéculative, des
-                espaces de vie mutualisés.
+                espaces de vie mutualisés, chambres d’accueil pour situations
+                d’urgence
               </p>
             </div>
           </div>
           <div class="card card-wrapper">
             <img
-              class="card-img-top"
-              src="images/espacepartage.jpg"
-              alt="Un avant-poste de la transition"
+              class="card-img-top mx-auto d-block"
+              src="images/resto.png"
+              alt="Café-restaurant"
             />
             <div class="card-body">
-              <h5 class="card-title">Restauration</h5>
+              <h5 class="card-title">CAFÉ RESTAURANT</h5>
               <p class="card-text">
                 Un café-restaurant convivial qui mise sur le bio et le
                 circuit-court et participe à la vitalité du centre-ville
@@ -236,38 +159,75 @@
           </div>
           <div class="card card-wrapper">
             <img
-              class="card-img-top"
-              src="images/espacepartage.jpg"
-              alt="Un avant-poste de la transition"
+              class="card-img-top mx-auto d-block"
+              src="images/evenements.png"
+              alt="évènements associatifs"
             />
             <div class="card-body">
-              <h5 class="card-title">Accueil d'évènement</h5>
+              <h5 class="card-title">ÉVÉNEMENTS ASSOCIATIFS</h5>
               <p class="card-text">
                 L’accueil d’événements avec la mise à disposition d’espaces pour
-                les associations.
+                les associations œuvrant pour la transition.
               </p>
             </div>
           </div>
           <div class="card card-wrapper">
             <img
-              class="card-img-top"
-              src="images/activite-autre.jpg"
+              class="card-img-top mx-auto d-block"
+              src="images/idees.png"
               alt="Un avant-poste de la transition"
             />
             <div class="card-body">
-              <h5 class="card-title">Et...</h5>
+              <h5 class="card-title">DES IDÉES</h5>
               <p class="card-text">
                 Plein d’autres potentiels sont à explorer : accueil d’enfants,
-                ateliers de bricolage, utilisation des caves, etc. Tout est
-                ouvert : ce sont l’ensemble des sociétaires de la coopérative
-                qui écriront le futur de l’Avant-Poste !
+                ateliers de bricolage, etc. Tout est ouvert : ce sont l’ensemble
+                des sociétaires de la coopérative qui écriront le futur de
+                l’Avant-Poste
               </p>
             </div>
           </div>
         </div>
       </section>
+      <section class="row align-items-center py-4 section-financement">
+        <h2 id="financement">Le financement du projet</h2>
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-4 py-2">
+            <img
+              src="images/graphe1.png"
+              class="mx-auto d-block"
+              alt="graphique des dépenses"
+            />
+          </div>
+          <div class="col-lg-4 py-2">
+            <img
+              src="images/graphe2.png"
+              class="mx-auto d-block"
+              alt="graphique des fonds"
+            />
+          </div>
+          <div class="col-lg-4 py-2">
+            <img
+              src="images/graphe3.png"
+              class="mx-auto d-block"
+              alt="graphique de la levée citoyenne"
+            />
+          </div>
+        </div>
+        <div class="d-flex justify-content-center align-items-center py-4">
+          <div class="col-lg-6">
+            <p>
+              <span class="focus"
+                >Nous avons déjà sécurisé 1 248 000€ de financement ! Nous
+                cherchons 172 000 €</span
+              >
+              d’investissement solidaire pour que le projet puisse se finaliser
+              !
+            </p>
+          </div>
+          <div
+        </div>
+      </section>
     </main>
   </body>
-
-  <script></script>
 </html>

@@ -1,45 +1,144 @@
-.flip-card {
-  background-color: transparent;
-  width: 300px;
-  height: 200px;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+:root {
+  --green-ligth: rgb(142, 201, 192);
+  --green: rgb(0, 158, 144);
+  --green-dark: rgb(0, 102, 96);
+  --corail: rgb(252, 232, 217);
 }
 
-/* This container is needed to position the front and back side */
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
+@media (min-width: 576px) {
+  section {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  section {
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  section {
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  section {
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section {
+    padding-right: 6rem;
+    padding-left: 6rem;
+  }
+}
+
+h2 {
+  color: var(--green-dark);
   text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 2.5rem;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
+/* ---------------------------------------------------------------------------*/
+/* HEADER */
+/* ---------------------------------------------------------------------------*/
+.header {
+  background-color: var(--green);
 }
 
-/* Position the front and back side */
-.flip-card-front,
-.flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
+/* ---------------------------------------------------------------------------*/
+/* MENU */
+/* ---------------------------------------------------------------------------*/
+
+.menu {
+  background-color: var(--green-dark);
 }
 
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-}
-
-/* Style the back side */
-.flip-card-back {
-  background-color: dodgerblue;
+.menu a {
   color: white;
-  transform: rotateY(180deg);
+  text-transform: uppercase;
+}
+
+/* ---------------------------------------------------------------------------*/
+/* SECTION PROJET */
+/* ---------------------------------------------------------------------------*/
+
+.section-projet {
+  background-color: var(--green-ligth);
+  color: var(--green-dark);
+}
+
+.section-projet p {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* ---------------------------------------------------------------------------*/
+/* SECTION ACTIVITES */
+/* ---------------------------------------------------------------------------*/
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card-wrapper {
+  max-width: 240px;
+  border: 0px;
+}
+
+.card-body {
+  padding: 0px;
+}
+
+.card-wrapper img {
+  width: 60%;
+}
+
+.card-body {
+  padding-top: 0px;
+  line-height: 1.2rem;
+  font-weight: 500;
+}
+
+.card-text {
+  color: black;
+  text-align: center;
+}
+.card-title {
+  color: var(--green);
+  font-weight: bold;
+  text-align: center;
+}
+
+/* ---------------------------------------------------------------------------*/
+/* SECTION ACTIVITES */
+/* ---------------------------------------------------------------------------*/
+
+.section-financement {
+  background-color: var(--corail);
+}
+
+.section-financement p {
+  text-align: center;
+  color: var(--green-dark);
+  font-size: 20px;
+}
+
+.section-financement p .focus {
+  font-weight: bold;
 }
