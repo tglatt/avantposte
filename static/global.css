@@ -79,12 +79,12 @@ h2 {
 /* SECTION PROJET */
 /* ---------------------------------------------------------------------------*/
 
-.section-projet {
+.projet {
   background-color: var(--green-ligth);
   color: var(--green-dark);
 }
 
-.section-projet p {
+.projet p {
   font-size: 24px;
   font-weight: bold;
   text-align: center;
@@ -94,55 +94,99 @@ h2 {
 /* SECTION ACTIVITES */
 /* ---------------------------------------------------------------------------*/
 
-.card-container {
+.activites .card-container {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
 }
-.card-wrapper {
+.activites .card-wrapper {
   max-width: 240px;
   border: 0px;
 }
 
-.card-body {
+.activites .card-body {
   padding: 0px;
 }
 
-.card-wrapper img {
+.activites .card-wrapper img {
   width: 60%;
 }
 
-.card-body {
+.activites .card-body {
   padding-top: 0px;
   line-height: 1.2rem;
   font-weight: 500;
 }
 
-.card-text {
+.activites .card-text {
   color: black;
   text-align: center;
 }
-.card-title {
+.activites .card-title {
   color: var(--green);
   font-weight: bold;
   text-align: center;
 }
 
 /* ---------------------------------------------------------------------------*/
-/* SECTION ACTIVITES */
+/* SECTION FINANCEMENT */
 /* ---------------------------------------------------------------------------*/
 
-.section-financement {
+.financement {
   background-color: var(--corail);
 }
 
-.section-financement p {
+.financement p {
   text-align: center;
   color: var(--green-dark);
   font-size: 20px;
 }
 
-.section-financement p .focus {
+.financement p .focus {
   font-weight: bold;
+}
+
+/* ---------------------------------------------------------------------------*/
+/* SECTION SOCIETAIRE */
+/* ---------------------------------------------------------------------------*/
+
+.societaire .card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.societaire .card-wrapper {
+  max-width: 350px;
+  border: 0px;
+}
+
+.societaire .card-body {
+  padding: 0px;
+}
+
+.societaire .card-wrapper img {
+  width: 60%;
+}
+
+.societaire .card-body {
+  padding-top: 0px;
+  line-height: 1.2rem;
+  font-weight: 500;
+}
+
+.societaire .card-text {
+  color: black;
+  text-align: center;
+}
+
+.societaire .card-text .focus {
+  color: var(--green);
+  font-weight: bold;
+}
+.societaire .card-title {
+  color: var(--green);
+  font-weight: bold;
+  text-align: center;
 }
