@@ -10,7 +10,7 @@
 }
 
 * {
-  font-family: "Montserrat";
+  font-family: "Montserrat Medium", sans-serif;
 }
 
 @media (min-width: 576px) {
@@ -55,7 +55,7 @@ h2 {
   color: var(--green);
   text-align: center;
   text-transform: uppercase;
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 1.8rem;
 }
 
@@ -94,7 +94,7 @@ h2 {
 
 .projet p {
   font-size: 24px;
-  font-weight: 600;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -105,7 +105,7 @@ h2 {
 .email {
   background-color: var(--orange);
   color: white;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .email .focus {
@@ -146,7 +146,6 @@ h2 {
 
 .activites .card-body {
   padding-top: 0px;
-  font-weight: 600;
 }
 
 .activites .card-text {
@@ -156,7 +155,6 @@ h2 {
 .activites .card-title {
   color: var(--green);
   text-align: center;
-  font-family: thin;
   font-weight: bold;
   font-size: 1.15rem;
 }
@@ -205,7 +203,6 @@ h2 {
 
 .societaire .card-body {
   padding-top: 0px;
-  font-weight: 600;
 }
 
 .societaire .card-text {
@@ -219,7 +216,6 @@ h2 {
 .societaire .card-title {
   color: var(--green);
   text-align: center;
-  font-family: thin;
   font-weight: bold;
   font-size: 1.15rem;
 }
@@ -240,7 +236,7 @@ h2 {
   color: white;
   font-size: 1.3rem;
   line-height: 1.6rem;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .equipe .focus {
