@@ -5,6 +5,12 @@
   --corail: rgb(252, 232, 217);
   --orange: rgb(228, 121, 87);
   --orange-light: rgb(228, 121, 87);
+  --orange-lighter: rgb(229, 134, 102);
+  --red: rgb(217, 72, 52);
+}
+
+* {
+  font-family: "Montserrat";
 }
 
 @media (min-width: 576px) {
@@ -46,11 +52,11 @@
 }
 
 h2 {
-  color: var(--green-dark);
+  color: var(--green);
   text-align: center;
   text-transform: uppercase;
   font-weight: bolder;
-  font-size: 2.5rem;
+  font-size: 1.8rem;
 }
 
 /* ---------------------------------------------------------------------------*/
@@ -88,7 +94,7 @@ h2 {
 
 .projet p {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 600;
   text-align: center;
 }
 
@@ -111,7 +117,7 @@ h2 {
 }
 
 .email a:hover {
-  filter: brightness(50%);
+  filter: brightness(30%);
 }
 
 /* ---------------------------------------------------------------------------*/
@@ -125,8 +131,9 @@ h2 {
   flex-wrap: wrap;
 }
 .activites .card-wrapper {
-  max-width: 240px;
+  max-width: 350px;
   border: 0px;
+  padding: 1.2rem;
 }
 
 .activites .card-body {
@@ -134,13 +141,12 @@ h2 {
 }
 
 .activites .card-wrapper img {
-  width: 60%;
+  width: 40%;
 }
 
 .activites .card-body {
   padding-top: 0px;
-  line-height: 1.2rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .activites .card-text {
@@ -149,8 +155,10 @@ h2 {
 }
 .activites .card-title {
   color: var(--green);
-  font-weight: bold;
   text-align: center;
+  font-family: thin;
+  font-weight: bold;
+  font-size: 1.15rem;
 }
 
 /* ---------------------------------------------------------------------------*/
@@ -184,6 +192,7 @@ h2 {
 .societaire .card-wrapper {
   max-width: 350px;
   border: 0px;
+  padding: 2rem;
 }
 
 .societaire .card-body {
@@ -191,13 +200,12 @@ h2 {
 }
 
 .societaire .card-wrapper img {
-  width: 60%;
+  width: 40%;
 }
 
 .societaire .card-body {
   padding-top: 0px;
-  line-height: 1.2rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .societaire .card-text {
@@ -207,10 +215,68 @@ h2 {
 
 .societaire .card-text .focus {
   color: var(--green);
-  font-weight: bold;
 }
 .societaire .card-title {
   color: var(--green);
-  font-weight: bold;
   text-align: center;
+  font-family: thin;
+  font-weight: bold;
+  font-size: 1.15rem;
+}
+
+/* ---------------------------------------------------------------------------*/
+/* SECTION EQUIPE */
+/* ---------------------------------------------------------------------------*/
+
+.equipe {
+  background-color: var(--orange-lighter);
+}
+
+.equipe h2 {
+  color: white;
+}
+
+.equipe p {
+  color: white;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+  font-weight: 500;
+}
+
+.equipe .focus {
+  font-weight: bold;
+}
+
+/* ---------------------------------------------------------------------------*/
+/* SECTION SOUTIEN */
+/* ---------------------------------------------------------------------------*/
+
+.soutien {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.soutien img {
+  width: 100px;
+}
+
+.soutien .soutien-logo {
+  padding: 1.2rem;
+}
+
+/* ---------------------------------------------------------------------------*/
+/* SECTION CONTACT */
+/* ---------------------------------------------------------------------------*/
+
+.contact {
+  background-color: var(--red);
+  color: white;
+  text-align: center;
+}
+
+.contact a {
+  color: white;
+}
+
+.contact a:hover {
+  filter: brightness(30%);
 }

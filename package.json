@@ -5,8 +5,7 @@
   "description": "website",
   "scripts": {
     "start": "docker-compose up --build --force -d",
-    "stop": "docker-compose stop",
-    "deploy-prod": "cd scripts && ./deploy-prod.sh"
+    "stop": "docker-compose stop"
   },
   "license": "ISC"
 }
