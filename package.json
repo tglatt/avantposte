@@ -7,5 +7,6 @@
     "start": "docker-compose up --build --force -d",
     "stop": "docker-compose stop"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {}
 }
