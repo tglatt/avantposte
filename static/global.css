@@ -51,7 +51,7 @@
   }
 }
 
-.cicle-base {
+.circle-base {
   position: absolute;
   right: 30px;
   top: 20px;
@@ -166,7 +166,7 @@ h2 {
 }
 
 .activites .card-wrapper img {
-  width: 40%;
+  width: auto;
 }
 
 .activites .card-body {
