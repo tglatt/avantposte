@@ -53,8 +53,7 @@
 
 .cicle-base {
   position: absolute;
-  right: 0;
-  padding-right: 30px;
+  right: 30px;
   top: 20px;
   -webkit-transform: rotate(10deg);
   -ms-transform: rotate(10deg);
