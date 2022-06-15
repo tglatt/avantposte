@@ -308,3 +308,33 @@ h2 {
 .contact a:hover {
   filter: brightness(30%);
 }
+
+/* ---------------------------------------------------------------------------*/
+/* SECTION FAQ */
+/* ---------------------------------------------------------------------------*/
+
+.accordion-button {
+  color: var(--green-dark);
+}
+
+.accordion-button:not(.collapsed) {
+  color: white;
+  background-color: var(--green-dark);
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+.accordion-button i {
+  padding-right: 4px;
+}
+
+.accordion-body {
+  border: 1px solid var(--green-dark);
+}
+
+.faq-reponse__body {
+  padding-bottom: 1rem;
+}
+
+.faq-reponse__body .focus {
+  font-weight: bold;
+}

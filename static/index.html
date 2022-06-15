@@ -10,6 +10,10 @@
       crossorigin="anonymous"
     />
     <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+    <link
       href="https://fonts.googleapis.com/css?family=Montserrat:medium,bold"
       rel="stylesheet"
     />
@@ -23,10 +27,10 @@
       property="og:description"
       content="L'Avant-Poste est un tiers-lieu à Die dans la Drôme axé sur la transition écologique et sociale."
     />
-    <!-- <meta
+    <meta
       property="og:image"
-      content="https://www.lavant-poste.org/images/lavant-poste.jpeg"
-    /> -->
+      content="https://www.lavant-poste.org/images/logo.png"
+    />
     <meta property="og:image:width" content="810" />
     <meta property="og:image:height" content="540" />
     <!-- <meta name="twitter:card" content="summary_large_image" />
@@ -40,10 +44,10 @@
       name="twitter:description"
       content="L'Avant-Poste, tiers-lieu de la transition"
     />
-    <!-- <meta
+    <meta
       name="twitter:image"
-      content="https://www.lavant-poste.org/images/lavant-poste.jpeg"
-    /> -->
+      content="https://www.lavant-poste.org/images/logo.png"
+    />
     <title>L'Avant-Poste, tiers-lieu de la transition</title>
     <!--[if lt IE 9]>
       <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
@@ -52,6 +56,11 @@
   </head>
 
   <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
     <main class="container-fluid">
       <div class="row">
         <header id="header" class="header py-2">
@@ -68,6 +77,7 @@
                   <a
                     href="mailto:contact@avant-poste.org?&subject=Avant-Poste - Collecte de fonds"
                     >DEVENEZ SOCIÉTAIRE ! Souscription avant le 13 juillet
+                    <i class="bi bi-question-circle"></i>
                   </a>
                 </button>
               </div>
@@ -103,8 +113,8 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#contact"
-                  >Contact</a
+                <a class="nav-link" aria-current="page" href="#savoir-plus"
+                  >En savoir plus</a
                 >
               </li>
             </ul>
@@ -136,6 +146,7 @@
             <a
               href="mailto:contact@avant-poste.org?&subject=Avant-Poste - Collecte de fonds"
               >Envoyez-nous un email pour recevoir les informations.
+              <i class="bi bi-question-circle"></i>
             </a>
           </button>
         </div>
@@ -332,7 +343,7 @@
           <div class="col-lg-6">
             <p class="focus">« A l’origine du projet ?</p>
             <p>
-              Le référent de la fresque du climat dans la Drôme qui cherchait un
+              Un référent de la fresque du climat dans la Drôme qui cherchait un
               lieu pour ses formations, et Dwatt, coopérative d’énergies
               renouvelables, qui recherche des bureaux pour son équipe
               grandissante. Ils tombent amoureux de cette grande bâtisse à
@@ -380,7 +391,431 @@
         </div>
       </section>
       <section
-        class="row align-items-center justify-content-center py-4 soutien py-4"
+        class="row align-items-center justify-content-center py-4 soutien"
+      >
+        <h2 id="savoir-plus">En savoir plus</h2>
+        <div class="accordion pt-4" id="accordionFaq">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="devenir-societaire">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#devenir-societaire-reponse"
+                aria-expanded="false"
+                aria-controls="devenir-societaire-reponse"
+              >
+                <i class="bi bi-question-circle"></i>
+                Comment devient-on sociétaire ?
+              </button>
+            </h2>
+            <div
+              id="devenir-societaire-reponse"
+              class="accordion-collapse collapse"
+              aria-labelledby="devenir-societaire"
+              data-bs-parent="#accordionFaq"
+            >
+              <div class="accordion-body">
+                <div class="faq-reponse__body">
+                  Pour devenir sociétaire de la SCIC, il suffit d’acheter au
+                  moins une part sociale (PS) de la SCIC.
+                </div>
+                <div class="faq-reponse__body">
+                  <span class="focus"> La part sociale coûte 20€. </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="marche-a-suivre">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#marche-a-suivre-item"
+                aria-expanded="false"
+                aria-controls="marche-a-suivre-item"
+              >
+                <i class="bi bi-question-circle"></i>
+                Quelle est la marche à suivre pour formaliser mon désir d’être
+                sociétaire ?
+              </button>
+            </h2>
+            <div
+              id="marche-a-suivre-item"
+              class="accordion-collapse collapse"
+              aria-labelledby="marche-a-suivre"
+              data-bs-parent="#accordionFaq"
+            >
+              <div class="accordion-body">
+                C’est très simple, il suffit de remplir
+                <a href="https://coophub.avant-poste.org/register/fr-fr/AP"
+                  >ce formulaire sur notre plateforme</a
+                >
+                avant le 13 juillet 2022 !
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="mes-droits">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mes-droits-item"
+                aria-expanded="false"
+                aria-controls="mes-droits-item"
+              >
+                <i class="bi bi-question-circle"></i>
+                Quels sont mes droits en tant que sociétaire ?
+              </button>
+            </h2>
+            <div
+              id="mes-droits-item"
+              class="accordion-collapse collapse"
+              aria-labelledby="mes-droits"
+              data-bs-parent="#accordionFaq"
+            >
+              <div class="accordion-body" id="mes-droits">
+                <div class="faq-reponse__body">
+                  Devenir sociétaire de la SCIC te permet de :
+                  <ul>
+                    <li>
+                      disposer d’un vote lors de l’Assemblée Générale et donc de
+                      prendre part aux grandes décisions de la coopérative.
+                    </li>
+                    <li>souscrire aux comptes courants d’associés (CCA).</li>
+                  </ul>
+                </div>
+                <div class="faq-reponse__body">
+                  Le compte courant d'associé est un compte qui permet à un
+                  associé de mettre à la disposition de l'entreprise des
+                  apports, pour un temps limité. Cet apport peut donner le droit
+                  à une rémunération, via un taux d'intérêt.
+                </div>
+                <div class="faq-reponse__body">
+                  Attention, pour des raisons de charge administrative, nous ne
+                  permettons d’acheter des CCA qu’à partir d’un montant total
+                  investi (parts sociales + CCA) de 500€.
+                </div>
+                <div class="faq-reponse__body">
+                  D’autre part, les CCA ne peuvent pas dépasser plus de 2 fois
+                  les parts sociales acquises.
+                </div>
+                <div class="faq-reponse__body">
+                  <small class="text-muted">
+                    Exemple :
+                    <ul>
+                      <li>tu décides d’investir 1 000€.</li>
+                      <li>
+                        Tu peux souscrire au maximum à 660€ de CCA et 340€ de
+                        parts sociales (17 parts)
+                      </li>
+                    </ul>
+                  </small>
+                </div>
+                <div class="faq-reponse__body"></div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="remuneration">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#remuneration-item"
+                aria-expanded="false"
+                aria-controls="remuneration-item"
+              >
+                <i class="bi bi-question-circle"></i>
+                Quelle est la rémunération des CCA ?
+              </button>
+            </h2>
+            <div
+              id="remuneration-item"
+              class="accordion-collapse collapse"
+              aria-labelledby="remuneration"
+              data-bs-parent="#accordionFaq"
+            >
+              <div class="accordion-body" id="remuneration">
+                <ul>
+                  <li>
+                    La rémunération des CCA donne lieu à une rémunération de
+                    <strong>3,5% par an</strong>.
+                  </li>
+                  <li>
+                    Les intérêts sont versés dans les 6 mois maximum après la
+                    clôture de chaque exercice.
+                  </li>
+                  <li>
+                    Après 5 ans, les intérêts augmentent de 0,5% par an jusqu’à
+                    5%.
+                  </li>
+                </ul>
+                <div class="faq-reponse__body">
+                  <small class="text-muted">
+                    Pour un investissement total de 1000€ avec 660€ de CCA, on
+                    obtient donc des intérêts cumulés au bout de 5 ans de
+                    115,5€.
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="condition-recup-invest">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#condition-recup-invest-item"
+                aria-expanded="false"
+                aria-controls="condition-recup-invest-item"
+              >
+                <i class="bi bi-question-circle"></i>
+                Quelles sont les conditions pour récupérer mon investissement ?
+              </button>
+            </h2>
+            <div
+              id="condition-recup-invest-item"
+              class="accordion-collapse collapse"
+              aria-labelledby="condition-recup-invest"
+              data-bs-parent="#accordionFaq"
+            >
+              <div class="accordion-body" id="condition-recup-invest">
+                <div class="faq-reponse__body">
+                  <strong>Parts sociales </strong>
+                  <div>
+                    Tu peux décider de sortir à tout moment, c'est-à-dire de
+                    récupérer l’argent dépensé pour acquérir les parts sociales.
+                    La SCIC te remboursera dans les 5 ans maximum suivant ta
+                    demande, sauf si la trésorerie n’est pas suffisante pour le
+                    faire.
+                  </div>
+                </div>
+                <div class="faq-reponse__body">
+                  <strong> CCA </strong>
+                  <div>
+                    Les CCA sont bloquées 5 ans à partir du moment de
+                    l’investissement. La SCIC te remboursera dans les 6 mois
+                    maximum après la clôture de l’exercice pendant lequel la
+                    demande a été faite, sauf si la trésorerie n’est pas
+                    suffisante pour le faire.
+                  </div>
+                </div>
+                <div class="faq-reponse__body">
+                  <small class="text-muted"
+                    >il s’agit donc d’un placement qui n’est pas liquide comme
+                    peut l’être un livret A !
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="risque">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#risque-item"
+                aria-expanded="false"
+                aria-controls="risque-item"
+              >
+                <i class="bi bi-question-circle"></i>
+                Quel est le risque associé à mon investissement ?
+              </button>
+            </h2>
+            <div
+              id="risque-item"
+              class="accordion-collapse collapse"
+              aria-labelledby="risque"
+              data-bs-parent="#accordionFaq"
+            >
+              <div class="accordion-body" id="risque">
+                <div class="faq-reponse__body">
+                  Le risque pour toi est que la SCIC fasse faillite et que nous
+                  ne puissions te rembourser ton investissement.
+                </div>
+                <div class="faq-reponse__body">
+                  Le risque existe mais est faible car la SCIC s’appuie sur un
+                  bien immobilier (c’est pour cela que les banques ont accepté
+                  de nous prêter 840 000€), qui pourrait être revendu en cas de
+                  grosses difficultés.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="deduction">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#deduction-item"
+                aria-expanded="false"
+                aria-controls="deduction-item"
+              >
+                <i class="bi bi-question-circle"></i>
+                Est-ce que cet investissement donne le droit à une déduction
+                fiscale ?
+              </button>
+            </h2>
+            <div
+              id="deduction-item"
+              class="accordion-collapse collapse"
+              aria-labelledby="deduction"
+              data-bs-parent="#accordionFaq"
+            >
+              <div class="accordion-body" id="deduction">
+                Non, cet investissement ne donne pas droit à une déduction
+                fiscale..
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="remboursement">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#remboursement-item"
+                aria-expanded="false"
+                aria-controls="remboursement-item"
+              >
+                <i class="bi bi-question-circle"></i>
+                Qu’est-ce qui se passe si nous n’arrivons pas à rassembler assez
+                d’argent pour financer l’acquisition et les travaux ?
+              </button>
+            </h2>
+            <div
+              id="remboursement-item"
+              class="accordion-collapse collapse"
+              aria-labelledby="remboursement"
+              data-bs-parent="#accordionFaq"
+            >
+              <div class="accordion-body" id="remboursement">
+                Dans ce cas-là, nous rembourserons intégralement l’ensemble des
+                virements et n’enregistrerons pas ta demande pour devenir
+                sociétaire.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="scic">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#scic-item"
+                aria-expanded="false"
+                aria-controls="scic-item"
+              >
+                <i class="bi bi-question-circle"></i>
+                Qu’est-ce qu’une SCIC ?
+              </button>
+            </h2>
+            <div
+              id="scic-item"
+              class="accordion-collapse collapse"
+              aria-labelledby="scic"
+              data-bs-parent="#accordionFaq"
+            >
+              <div class="accordion-body" id="scic">
+                <div class="faq-reponse__body">
+                  <strong
+                    >Une SCIC est une société coopérative d’intérêt
+                    collectif.</strong
+                  >
+                </div>
+                <div class="faq-reponse__body">
+                  Cela implique notamment les points suivants :
+                  <ul>
+                    <li>
+                      Dans les assemblées générales d'associés, chaque associé a
+                      le même pouvoir que les autres :
+                      <strong>un associé = une voix</strong>, pondéré selon le
+                      collège de vote.
+                    </li>
+                    <li>
+                      Chaque année, au moins 57,5 % des bénéfices (jusqu’à 100 %
+                      en pratique) sont mis en réserves dites « impartageables »
+                      pour consolider les fonds propres de l’entreprise.
+                    </li>
+                    <li>
+                      L’objectif n’est pas d’accroître la richesse des
+                      sociétaires mais de réaliser la mission de la coopérative.
+                    </li>
+                  </ul>
+                </div>
+                <div class="faq-reponse__body">
+                  <small class="text-muted">
+                    Si la coopérative est dissoute, l’actif net de la SCIC est
+                    versé soit à d’autres coopératives, soit à une autre
+                    entreprise de l’économie sociale et solidaire.
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="dis">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#dis-item"
+                aria-expanded="false"
+                aria-controls="dis-item"
+              >
+                <i class="bi bi-question-circle"></i>
+                Qu’est ce que le DIS ?
+              </button>
+            </h2>
+            <div
+              id="dis-item"
+              class="accordion-collapse collapse"
+              aria-labelledby="dis"
+              data-bs-parent="#accordionFaq"
+            >
+              <div class="accordion-body" id="dis">
+                <div class="faq-reponse__body">
+                  Le DIS est
+                  <strong
+                    >le Document d’information synthétique obligatoire</strong
+                  >
+                  pour toute campagne de levée d’épargne solidaire, selon la
+                  réglementation de l’AMF (Autorité des marchés financiers).
+                </div>
+                <div class="faq-reponse__body">
+                  Tu le trouveras
+                  <a
+                    href="https://cloud.avant-poste.org/s/aBykKzg7p8QSJW5"
+                    target="_BLANK"
+                    >en suivant ce lien</a
+                  >.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="row align-items-center justify-content-center py-4 contact"
+      >
+        <div>
+          <span id="contact" class="focus">Contact: </span>
+          <button type="button" class="btn btn-link">
+            <a
+              href="mailto:contact@avant-poste.org?&subject=Avant-Poste - Collecte de fonds"
+              >contact@avant-poste.org
+            </a>
+          </button>
+        </div>
+      </section>
+      <section
+        class="row align-items-center justify-content-center py-4 soutien"
       >
         <h2>ILS NOUS SOUTIENNENT</h2>
         <div class="d-flex justify-content-around flex-wrap pt-4">
@@ -410,19 +845,6 @@
           <div class="soutien-logo">
             <img src="images/soutiens/cedille.png" />
           </div>
-        </div>
-      </section>
-      <section
-        class="row align-items-center justify-content-center py-4 contact"
-      >
-        <div>
-          <span id="contact" class="focus">Contact: </span>
-          <button type="button" class="btn btn-link">
-            <a
-              href="mailto:contact@avant-poste.org?&subject=Avant-Poste - Collecte de fonds"
-              >contact@avant-poste.org
-            </a>
-          </button>
         </div>
       </section>
     </main>
